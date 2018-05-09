@@ -1,0 +1,7 @@
+此文件夹下放置对ade20k数据集进行分类的相关代码和数据
+
+- train_img 和 val_img 是训练数据集和测试数据集的图片列表和标注，标注的类别是ade20k中给出的原始的场景类别，约1000类
+- create_lmdb.sh是讲图片和标注转换为Caffe能更好处理的lmdb格式的脚本
+- cal_mean.sh是计算所有图片RGB三个通道的灰度值均值的脚本
+- train文件夹下有训练相关的脚本文件
+- alexnet caffenet googlenet resnet50 vgg16文件夹下分别包含对应网络结构的描述文件和训练所需的超参数描述文件

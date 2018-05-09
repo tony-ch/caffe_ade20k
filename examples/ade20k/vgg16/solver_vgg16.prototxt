@@ -1,0 +1,16 @@
+test_iter: 2000
+test_interval: 500
+test_initialization: false
+base_lr: 0.0005
+display: 20
+max_iter: 10000
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 20000
+snapshot: 2500
+snapshot_prefix: "examples/ade20k/vgg16/vgg16_train"
+solver_mode: GPU
+net: "examples/ade20k/vgg16/train_val_vgg16.prototxt"
+solver_type: SGD
