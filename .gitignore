@@ -70,6 +70,9 @@ models/*
 *.binaryproto
 *leveldb
 *lmdb
+*lmdb_v1
+*lmdb_v2
+*.npy
 
 # build, distribute, and bins (+ python proto bindings)
 build
@@ -81,6 +84,7 @@ distribute/*
 python/caffe/proto/
 cmake_build
 .cmake_build
+cmake-build*
 
 # Generated documentation
 docs/_site

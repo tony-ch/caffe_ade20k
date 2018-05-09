@@ -1,3 +1,8 @@
+# Caffe-ADE20K
+在Caffe框架下对ADE20K数据集进行的场景分类，使用了VGG和ResNet等网络结构。
+
+除了本地编译所需要更改的Makefile文件之外，Caffe的源码并没有被更改，实验相关的代码和数据被放置在examples/ade20k文件夹。
+
 # Caffe
 
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
